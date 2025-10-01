@@ -1,0 +1,26 @@
+.eleven{
+    padding-left: 8%;
+}
+.twelve{
+    padding-left: 8%;
+}
+.row12{
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+}
+.col42{
+    width: 20%;
+}
+.col43{
+    width: 80%;
+    padding-left: 5%;
+    display: flex;
+    column-gap:2%;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.h9{
+    color: rgb(118, 230, 7);
+     
+}

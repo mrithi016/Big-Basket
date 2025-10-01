@@ -1,0 +1,38 @@
+.thirteen{
+    padding-left: 8%;
+}
+.h10{
+    padding-top: 3%;
+    font-weight: bold;
+}
+.h12{
+    text-decoration: underline;
+    color: rgb(122, 122, 122);
+}
+.h13{
+    padding-left: 4%;
+        color: rgb(122, 122, 122);
+
+
+}
+.row14{
+    display: flex;
+    width: 100%;
+}
+.col46{
+    width: 30%;
+}
+.row13{
+    display: flex;
+    width: 100%;
+}
+.col44{
+    width: 30%;
+}
+
+.col45{
+    display: flex;
+    width: 70%;
+    column-gap: 4%;
+    padding-top: 2%;
+}

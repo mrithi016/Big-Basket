@@ -1,0 +1,58 @@
+.eight{
+       padding-left: 8%;
+    padding-bottom: 2%;
+    background-color: black;
+
+}
+.row6{
+    display: flex;
+    width:100%;
+
+}
+.col26{
+    width: 33%;
+    padding-top: 3%;
+}
+.col27{
+    width: 33%;
+    padding-top: 3%;
+}
+.col28{
+    width: 34%;
+    padding-top: 3%;
+    
+}
+.i2{
+    padding-left: 5%;
+}
+.h4{
+    font-size: 15px;
+    color: rgb(237, 241, 245);
+}
+.i3{
+    color: aliceblue;
+}
+.i4{
+   text-align: center;
+    color: aliceblue;
+    padding-right: 10%;
+}
+.row7{
+    display: flex;
+    width: 100%;
+}
+.col29{
+    width:25%;
+}
+.col30{
+    width:25%;
+}
+.col31{
+    width:25%;
+}
+.col32{
+    width:25%;
+}
+.p2{
+    color: aliceblue;
+}

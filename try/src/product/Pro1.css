@@ -1,0 +1,58 @@
+.nine{
+    padding-left: 8%;
+}.h5{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.h6{
+    color: darkgrey;
+    font-size: 18px;
+}
+.h7{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.h8{
+    padding-left: 4%;
+}
+.btn5{
+    padding-left: 4%;
+       padding-right: 4%;
+       padding-top: 1%;
+       padding-bottom: 1%;
+}
+.row8{
+    display:flex;
+    width: 100%;
+    padding-top: 1%;
+}
+.col38{
+    width: 50%;
+}
+.col39{
+    width: 50%;
+    padding-left: 25%;
+}
+.ten{
+    padding-left: 8%;
+}
+.row10{
+    display: flex;
+    width: 100%;
+}
+.col40{
+    width: 20%;
+}
+.col41{
+    width: 80%;
+    display: flex;
+    column-gap: 4%;
+}
+.row11{
+   
+}
+.form-check-input{
+   border: solid;
+   
+}
