@@ -11,6 +11,7 @@ import Pro6 from './product/Pro6';
 import Pro7 from './product/Pro7';
 import Cart from './redux/Cart';
 import Foot from './footer/Foot';
+import Fav from './redux/Fav'
 import { useState } from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
@@ -44,6 +45,7 @@ function App() {
            <Route path="/product6" element={<Pro6/>}/>
             <Route path="/product7" element={<Pro7/>}/>
             <Route path="/cart" element={<Cart/>}/>
+            <Route path="/fav" element={<fav/>}/>
       </Routes>
       <Foot/>
       </BrowserRouter>

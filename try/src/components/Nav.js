@@ -3,7 +3,7 @@ import './Nav.css';
 import img1 from '../images/img1.jpg';
 import img2 from '../images/img2.png';
 import img3 from '../images/img3.jpg';
-import img4 from '../images/img4.jpg';
+import img60 from '../images/img60.png';
 import { Link } from 'react-router-dom';
 // import Mapp from '../mapping/Mapp';
 // import img9 from '../images/img9.jpg';
@@ -77,7 +77,7 @@ function Nav() {
           <Link to="product3"><img src={img3}/></Link>
         </div>
           <div class="col10">
-          <img src={img4}/>
+         <Link to="/fav"><img src={img60}/></Link> 
         </div>
           
       </div>

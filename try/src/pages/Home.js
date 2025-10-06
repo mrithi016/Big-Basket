@@ -18,15 +18,20 @@ import img22 from '../images/img22.jpg';
 import img23 from '../images/img23.jpg';
 import img24 from '../images/img24.jpg';
 import img25 from '../images/img25.jpg';
+import img60 from '../images/img60.png';
+import img61 from '../images/img61.jpg';
 import { Link } from 'react-router';
 import { useSelector,useDispatch } from 'react-redux';
 import {deleteFromCart,addTocart } from '../redux/Slice';
+import { favPlus,favMinus } from '../redux/Favslice';
 
 
 
 const Home=()=> {
 
     const cartitems=useSelector((state)=>state.cart.cartitems);
+    
+    const favitems=useSelector((state)=>state.favcart.favitems);
  
   const dispatch=useDispatch();
 
@@ -38,6 +43,14 @@ const Home=()=> {
   const deleteCart=(item)=>{
     dispatch(deleteFromCart(item))
 }
+
+  const favplus=(item)=>{
+    dispatch(favPlus(item))
+  }
+
+  const favminus=(item)=>{
+    dispatch(favMinus(item))
+  }
 
 
   return (
@@ -87,6 +100,18 @@ const Home=()=> {
                                     <button class="btn btn-danger cartbutton" onClick={()=>deleteCart(item)} > Remove From Cart </button>)
                                     :
                                     (<button class="btn btn-danger cartbutton"  onClick={()=>addCart(item)} > Add To Cart </button>)
+                              }
+
+
+
+
+                               {
+                              favitems.find(Items=>Items.id===item.id)?(
+                                    <button class="btn -danger cartbuttonn" onClick={()=>favminus(item)} > <img src={img61} width={25}/> </button>)
+                                    :
+                                    (<button class="btn -danger cartbuttonn"  onClick={()=>favplus(item)}>
+                                      <img src={img60}/>
+                                    </button>)
                               }
 
 
